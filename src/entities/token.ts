@@ -81,5 +81,13 @@ export const WETH = {
     'WETH',
     'Wrapped Ether',
     'https://weth.io/'
-  )
+  ),
+  [ChainId.ONE]: new Token(
+    42161,
+    '0x82af49447d8a07e3bd95bd0d56f35241523fbab1',
+    18,
+    'WETH',
+    'Wrapped Ether',
+    'https://weth.io/'
+  ),
 }
